@@ -16,7 +16,12 @@ const app = express();
 // CORS Middleware Configuration
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5174"],
+    origin: [
+      "http://localhost:5173",
+      "http://localhost:5174",
+      "https://code-excel-frontend.onrender.com/",
+      "https://code-excel-frontend.onrender.com",
+    ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
