@@ -4,3 +4,4 @@ uploads
 /uploads
 .qodo
 .env
+/env
